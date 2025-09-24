@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./project.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+            <nav>
+                <h1>Bharathi.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#achievements">achievements</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>software developer</p>
+                <h1>Hi,I'm <span>Bharathi</span><br>from chennai</h1>
+            </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <img src="./InShot_20250131_203648341.jpg">
+                </div>
+                <div class="right">
+
+                    <h1 class="sub-title">about me</h1>
+                    <p>Aspiring software professional with skills in Java, SQL, and web development.
+                      Hands-on internship experience in Oracle SQL with focus on performance tuning and data analysis.Solved 500+ problems on CodeChef and 200+ on LeetCode, improving logical and coding ability.Eager to grow, collaborate, and build impactful solutions in the IT industry</p>
+                    <div class="sub-link">
+                    <p class="c1 c1-link" onclick="opentab('skills')" >skills</p>
+                    <p class="c1" onclick="opentab('intern')">intern</p>
+                    <p class="c1" onclick="opentab('education')">education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>programming language</span><br>java,oops concepts</li>
+                            <li><span>web development</span><br>html,css,javascript</li>
+                            <li><span>database management</span><br>oracle</li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="intern">
+                        <ul>
+                            <li><span>intern</span><br>Optimized SQL queries and database design for efficiency and scalability.<br>Developed complex queries, joins and stored procedure for data process<br> Managed indexing and performance tuning to enhance database perfomamance <br>Worked on real-time data analysis and reporting.</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>bachelor of engineering at computer science</li>
+                            <li><span>2020-2021</span><br>higher secondary certificate</li>
+                            <li><span>2018-2019</span><br>secondary school leaving certificate</li>
+
+                        </ul>
+                     </div>
+
+
+                </div>
+               
+              
+            </div>
+        </div>
+    </div>
+    <!--------------achievements--------------->
+    <div id="achievements">
+        <div class="container">
+             <h1 class="sub-title">My Achievements</h1>
+             <div class="achivement-list">
+                <div class="a1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Leetcode</h2>
+                    <p>I have solved over 150 LeetCode problems,proving my dedication,improving problem-solving skills, and building strong programming confidence</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div class="a1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Codechef</h2>
+                    <p>I have successfully solved 500 problems on CodeChef,showcasing consistency,strong algorithmic skills, and passion for competitive programming</p>
+                    <a href="#">learn more</a>
+                </div>
+                  <div class="a1">
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile Application</h2>
+                    <p>Achieved recognition by being selected in the first round of the Mobile Application Competition organized by the TN skills ofTamil Nadu Government</p>
+                    <a href="#">learn more</a>
+                </div>
+
+             </div>
+
+        </div>
+    </div>
+    <!-------------portfolio-------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title ">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./cloud1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Data sharing in cloud</h3>
+                        <p>Data sharing in cloud computing ensures secure, scalable, efficient collaboration across users, applications, and organizations globally</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="./food.jpg" alt="">
+                    <div class="layer">
+                    <h3>Food Restaurent</h3>
+                    <p>A food restaurant website built with HTML and CSS displays menus, images, offers, contact details, reservations, reviews, and locations</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                   
+                    <img src="./todolist.jpg" alt="">
+                    <div class="layer">
+                    <h3>TodoList</h3>
+                    <p>A to-do list helps organize daily tasks, set priorities, track progress, increase productivity, manage time, and reduce stress effectively</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See more</a>
+
+
+
+        </div>
+    </div>
+
+    <!-------------contact---------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bharathi2004m@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9361050733</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./BHARATHI _M.pdf"download class="btn btn2">Download Cv</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="text" email="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button tyoe="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+
+              
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Bharathi Murugan Built With <i class="fa-solid fa-heart"></i> and Code .All Rights Reserved</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks=document.getElementsByClassName("c1")
+        var tabcontents=document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("c1-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("c1-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }        
+
+    </script>
+
+
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+        
+    }
+</script>
+</body>
+</html>
